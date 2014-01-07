@@ -1,0 +1,167 @@
+body {
+  background-color: #D7B48B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.25em;
+  line-height: 1.6;
+  color: #000;
+}
+
+hr {
+  border-color: #999999;
+  max-width: 400px;
+}
+
+.brand,
+.address-bar {
+  display: none;
+}
+
+.slide-image {
+min-width: 100%;
+ min-height: 200px;
+}
+
+.carousel-holder {
+  margin-bottom: 30px;
+}
+
+.carousel-control,.item {
+  border-radius: 4px;
+}
+
+
+.intro-text {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.25em;
+  font-weight: 400;
+  color: rgb(16, 206, 183);
+}
+
+.img-border {
+  float: none;
+  margin: 0 auto 0;
+  border: #999999 solid 1px;
+}
+
+.img-left {
+  float: none;
+  margin: 0 auto 0;
+}
+
+.social_icons{
+  margin-left: 90%;
+ margin-top: -10%;
+}
+
+footer {
+  background: #fff;
+  background: rgba(255,255,255,0.9);
+}
+
+footer p {
+  margin: 0;
+  padding: 0.5px 0;
+}
+
+@media screen and (min-width: 768px) {
+
+.brand {
+background-color: #fff;
+display: inherit;
+font-size: 3em;
+line-height: normal;
+text-align: left;
+margin: 0;
+padding: 5px 0 70px;
+color:rgb(163, 31, 39);
+text-shadow: 4px 4px 4px rgb(240, 154, 106);
+font-family: fantasy;
+font-style: italic;
+font-variant: small-caps;
+}
+
+.img-left {
+  float: left;
+  margin-right: 25px;
+}
+
+
+
+.navbar-header {
+  display: none;
+}
+.navbar-nav > li {
+float: left;
+margin: 0px -7px;
+}
+
+.navbar-nav>li>a {
+  line-height: normal 
+}
+
+.navbar-default .navbar-nav>li>a{
+background-color:rgb(216, 59, 45);}
+
+.navbar-default .navbar-nav>li>a{
+color:rgb(245, 234, 226);}
+
+.scroll-text {
+  width: 335px;
+  height: 8.5em;
+  overflow: hidden;
+}
+.scroll-text ul {
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+  margin: 0;
+}
+.scroll-text ul li {
+  height: 1.5em;
+}
+/*
+.scroll-img {
+  width: 210px;
+  height: 300px;
+  overflow: hidden;
+  font-size: 0;
+}
+.scroll-img ul {
+  width: 210px;
+  height: 300px;
+  margin: 0;
+}
+.scroll-img ul li {
+  margin: 10px 0 10px 10px;
+}*/
+
+
+.scroll-img2 {
+  width: 850px;
+  height: 142px;
+  overflow: hidden;
+  font-size: 0;
+}
+.scroll-img2 ul {
+  width: 700px;
+  height: 600px;
+  margin: 0;
+}
+.scroll-img2 ul li {
+  display: inline-block;
+  margin: 10px 0 10px 10px;
+}
+
+#more_ticker.scroll-img2 ul {
+  width: 1500px;
+}
+
