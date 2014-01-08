@@ -1,0 +1,182 @@
+body{
+ background: rgba(215,180,139,0.6) url('../img/bg.png')  no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #000;
+}
+
+hr {
+  border-color: #999999;
+  max-width: 400px;
+}
+
+.brand,
+.address-bar {
+  display: none;
+}
+
+.slide-image {
+min-width: 100%;
+ min-height: 200px;
+}
+
+.carousel-control,.item {
+  border-radius: 4px;
+}
+.carousel-inner > .item > img
+{ 
+  height:400px; 
+}
+
+.intro-text {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.25em;
+  font-weight: 400;
+  color: rgb(216, 59, 45);
+}
+
+.img-border {
+  float: none;
+  margin: 0 auto 0;
+  border: #999999 solid 1px;
+}
+
+.img-left {
+  float: none;
+  margin: 0 auto 0;
+}
+
+.social_icons{
+  margin-left: 80%;
+  margin-top: -10%;
+}
+
+footer {
+  background: #fff;
+  background: rgba(255,255,255,0.9);
+}
+
+footer p {
+  margin: 0;
+  padding: 0.5px 0;
+}
+.brand {
+
+display: inherit;
+font-size: 3em;
+line-height: normal;
+text-align: left;
+margin: 0;
+color:rgb(163, 31, 39);
+text-shadow: 4px 4px 4px rgb(240, 154, 106);
+font-family: fantasy;
+font-style: italic;
+font-variant: small-caps;
+}
+
+@media all and (min-width: 768px) {
+.brand{
+  padding: 5px 0 80px 5px;
+}
+}
+
+/*@media all and (min-width: 900px) {
+.brand {
+  padding: 1px 0 100px 5px;
+}
+}*/
+
+.img-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.navbar-header {
+  display: none;
+}
+
+.navbar-nav > li {
+float: left;
+margin: 0px -7px;
+}
+
+.navbar-nav>li>a {
+  line-height: normal 
+}
+
+.navbar-default
+{
+background-color:rgb(216, 59, 45);
+}
+.navbar-default .navbar-nav>li>a:hover
+{
+background-color:rgb(216, 59, 45);
+}
+
+.navbar-default .navbar-nav>li>a
+{
+color:rgb(245, 234, 226);
+}
+
+.scroll-text {
+  width: 335px;
+  height: 8.5em;
+  overflow: hidden;
+}
+.scroll-text ul {
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+  margin: 0; 
+}
+.scroll-text ul li {
+  height: 1.5em;
+}
+.scroll-text ul li a{
+  color: #000;
+  text-decoration: none;
+}
+.scroll-text ul li a:hover,a:focus{
+  color: rgb(216, 59, 45);
+}
+
+
+.scroll-img ul li {
+ margin: 0 -55px;
+}
+
+
+.scroll-img2 {
+  width: 850px;
+  height: 142px;
+  overflow: hidden;
+  font-size: 0;
+}
+.scroll-img2 ul {
+  width: 700px;
+  height: 600px;
+  margin: 0;
+}
+.scroll-img2 ul li {
+  display: inline-block;
+  margin: 10px 0 10px 10px;
+}
+
+#more_ticker.scroll-img2 ul {
+  width: 1500px;
+}
+
