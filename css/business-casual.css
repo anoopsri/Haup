@@ -29,7 +29,7 @@ hr {
 }
 
 .slide-image {
-min-width: 100%;
+ min-width: 100%;
  min-height: 200px;
 }
 
@@ -157,11 +157,16 @@ color:rgb(245, 234, 226);
 
 .scroll-img ul li {
  margin: 0 -55px;
+
+}
+.scroll-img ul li img{
+  height: 210px;
+  width: 210px;
 }
 
 
 .scroll-img2 {
-  width: 850px;
+  width: 1120px;
   height: 142px;
   overflow: hidden;
   font-size: 0;
