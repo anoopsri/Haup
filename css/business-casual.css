@@ -185,3 +185,11 @@ color:rgb(245, 234, 226);
   width: 1500px;
 }
 
+.legend-slide-image{
+  width: 100%;
+ height: 200px;
+}
+.carousel-holder {
+  margin-left: 275px
+}
+
