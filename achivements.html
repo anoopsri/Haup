@@ -6,13 +6,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Fixtures</title>
+    <title>Achivements</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
     <!-- Add custom CSS here -->
-    <link href="css/business-casual.css" rel="stylesheet">
+    <link href="css/business-casual.css" rel="stylesheet">    
+    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
   </head>
 
   <body>
@@ -64,30 +65,100 @@
     <div class="container">
       <div class="row">
         <div class="box">
-          <!-- Image Gallery-->
-          <div id="slider1">
-        <ul id="slider1Content">
-            <li class="slider1Image">
-                <a href=""><img src="img/achivement1.png" alt="1" /></a>
-                <span class="left"><strong>Title text 1</strong><br />Content text...</span></li>
-            <li class="slider1Image">
-                <a href=""><img src="img/achivement2.jpg" alt="2" /></a>
-                <span class="right"><strong>Title text 2</strong><br />Content text...Content text...Content text...Content text...Content text...Content text...Content text...Content text...Content text...Content text...Content text...</span></li>
-            <li class="slider1Image">
-                <img src="img/achivement3.jpg" alt="3" />
-                <span class="right"><strong>Title text 2</strong><br />Content text...</span></li>
-            <li class="slider1Image">
-                <img src="img/achivement4.jpg" alt="4" />
-                <span class="left"><strong>Title text 2</strong><br />Content text...</span></li>
-            <li class="slider1Image">
-                <img src="img/achivement5.jpg" alt="5" />
-                <span class="right"><strong>Title text 2</strong><br />Content text...</span></li>
-            <div class="clear slider1Image"></div>
-        </ul>
-    </div> <!-- Image Gallery-->
+       <div id="blueimp-gallery" class="blueimp-gallery">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>        
+
+<div id="links">
+    <a href="img/achivement1.png" title="SENIOR NATIONAL CENTRAL ZONE HOCKEY 
+    CHAMPIONSHIP – 2012 SAIFAI ,ETAWAH. U.P." data-gallery>
+        <img src="img/thumbs/1.png" alt="1">
+    </a>
+    <a href="img/achivement2.jpg" title="RITUSHA ARYA Member of Indian Jr. Womens Hockey World Cup -2013 Bronze Medalist" data-gallery>
+        <img src="img/thumbs/2.jpg" alt="Apple">
+    </a>
+    <a href="img/achivement3.jpg" title="RITUSHA ARYA Member of Indian Jr. Womens Hockey World Cup -2013 Bronze Medalist" data-gallery>
+        <img src="img/thumbs/3.jpg" alt="Orange">
+    </a>
+    <a href="img/achivement4.jpg" title="SHRI NARAD RAI, HON’BLE SPORTS MINISTER U.P PRESENTING RS 1,50,000/- CASH AWARD" data-gallery>
+        <img src="img/thumbs/4.jpg" alt="1">
+    </a>
+    <a href="img/achivement5.jpg" title="SHRI NARAD RAI, HON’BLE SPORTS MINISTER U.P PRESENTING RS 1,50,000/- CASH AWARD" data-gallery>
+        <img src="img/thumbs/5.jpg" alt="Apple">
+    </a>
+    <a href="img/achivement6.jpg" title="SHRI NARAD RAI, HON’BLE SPORTS MINISTER U.P PRESENTING RS 1,50,000/- CASH AWARD" data-gallery>
+        <img src="img/thumbs/6.jpg" alt="Orange">
+    </a>
+    <a href="img/achivement7.jpg" title="RUNNER UP-FEDERATION CUP-2013" data-gallery>
+        <img src="img/thumbs/7.jpg" alt="1">
+    </a>
+    <a href="img/achivement8.png" title="UP JUNIOR NATIONAL HOCKEY TEAM WINNERS AT HYDERABAD" data-gallery>
+        <img src="img/thumbs/8.png" alt="Apple">
+    </a>
+    <a href="img/achivement9.jpg" title="Uttar Pradesh Sr.Mens Hockey Team with  Shri Salman Kursheed Hon’ble Minister for External Affairs Govt.Of India" data-gallery>
+        <img src="img/thumbs/9.jpg" alt="Orange">
+    </a>
+    <a href="img/achivement10.png" title="Smt Rita Bahuguna ji along with HAUP Officials" data-gallery>
+        <img src="img/thumbs/10.png" alt="1">
+    </a>
+    <a href="img/achivement11.png" title="Vivek Gupta  and Tej Pratap Yadhav honoring Shri Dharmendra Yadav (Member of Lok Sabha)." data-gallery>
+        <img src="img/thumbs/11.png" alt="Apple">
+    </a>
+    <a href="img/achivement12.jpg" title="1st 7-A Side Prize Money ONGC Hockey Championship
+20th June to 1st July 2013   At Lucknow U.P." data-gallery>
+        <img src="img/thumbs/12.jpg" alt="Orange">
+    </a>
+    <a href="img/achivement13.jpg" title="ONGC TEAM WITH SHRI MAYANK JOSHI AND V.K.MAHENDRU ,GM HEAD OF SPORTS ONGC " data-gallery>
+        <img src="img/thumbs/13.jpg" alt="Orange">
+    </a>
+    <a href="img/achivement14.jpg" title="1st 7-A Side Prize Money ONGC Hockey Championship
+20th June to 1st July 2013 At Lucknow U.P." data-gallery>
+        <img src="img/thumbs/14.jpg" alt="Orange">
+    </a>
+    <a href="img/achivement15.png" title="Uttar Pradesh Hockey Team" data-gallery>
+        <img src="img/thumbs/15.png" alt="Orange">
+    </a>
+    <a href="img/achivement16.jpg" title="FINAL ONGC VS IOC" data-gallery>
+        <img src="img/thumbs/16.jpg" alt="Orange">
+    </a>
+
+</div>
+
+
   </div>
+  <hr>
       </div>
     </div> <!-- /.container -->
+
     <footer>
       <div>
             <p class ="text-center">Copyright&copy;Hockey Association Of UP</p>   
@@ -97,15 +168,9 @@
 
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/s3Slider.js"></script>
+    <script src="js/jquery.blueimp-gallery.min.js"></script>
+    <script src="js/bootstrap-image-gallery.min.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $('#slider1').s3Slider({
-            timeOut: 4000 
-        });
-    });
-</script>
 
   </body>
 </html>
