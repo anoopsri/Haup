@@ -1,11 +1,6 @@
 body{
- background: url('../img/bg.png')  no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+ background-color:  rgba(215,180,139,0.6)
 }
-
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -21,11 +16,6 @@ p {
 hr {
   border-color: #999999;
   max-width: 400px;
-}
-
-.brand,
-.address-bar {
-  display: none;
 }
 
 .slide-image {
@@ -75,6 +65,12 @@ footer p {
   padding: 0.5px 0;
 }
 .brand {
+  background: #fff url('../img/bg.png')  no-repeat center; 
+-webkit-background-size: 75% 145%;
+-moz-background-size: 75% 145%;
+-o-background-size: 75% 145%;
+background-size: 75% 145%;
+
 display: inherit;
 font-size: 3em;
 line-height: normal;
@@ -91,7 +87,7 @@ font-variant: small-caps;
 .brand{
   padding: 5px 0 80px 5px;
 }
-}
+
 
 /*@media all and (min-width: 900px) {
 .brand {
@@ -130,6 +126,7 @@ background-color:rgb(216, 59, 45);
 {
 color:rgb(245, 234, 226);
 }
+}
 
 .scroll-text {
   width: 335px;
@@ -154,7 +151,7 @@ color:rgb(245, 234, 226);
 }
 
 .scroll-img ul li img{
-  height: 210px;
+  height: 175px;
 }
 
 .scroll-img2 {
@@ -182,8 +179,7 @@ color:rgb(245, 234, 226);
  height: 200px;
 }
 
-
-/* Achievemnt page image gallery begins*/
-
-
-/* Image Gallery Ends*/
+#links a:hover,a:focus{
+  color: #000;
+  text-decoration: none;
+}
