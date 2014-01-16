@@ -34,7 +34,7 @@ hr {
 .intro-text {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 1.25em;
+  font-size: 3em;
   font-weight: 400;
   color: rgb(216, 59, 45);
 }
@@ -126,7 +126,7 @@ background-color:rgb(216, 59, 45);
 {
 color:rgb(245, 234, 226);
 }
-}
+} /* Media*/
 
 .scroll-text {
   width: 335px;
@@ -182,4 +182,7 @@ color:rgb(245, 234, 226);
 #links a:hover,a:focus{
   color: #000;
   text-decoration: none;
+}
+#links ul {
+  margin-left: 200px;
 }
