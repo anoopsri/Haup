@@ -1,6 +1,7 @@
 body{
- background-color:  rgba(215,180,139,0.6)
+ background-color:  #FFEFD5;
 }
+
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -34,7 +35,7 @@ hr {
 .intro-text {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 400;
   color: rgb(216, 59, 45);
 }
@@ -51,13 +52,13 @@ hr {
 }
 
 .social_icons{
-  margin-left: 80%;
-  margin-top: -10%;
+  margin-left: 85%;
+  margin-top: -12%;
 }
 
 footer {
-  background: #fff;
-  background: rgba(255,255,255,0.9);
+  background: rgb(216, 59, 45);
+  border-radius: 15px;
 }
 
 footer p {
@@ -85,9 +86,8 @@ font-variant: small-caps;
 
 @media all and (min-width: 768px) {
 .brand{
-  padding: 5px 0 80px 5px;
+  padding: 5px 0 105px 5px;
 }
-
 
 /*@media all and (min-width: 900px) {
 .brand {
@@ -141,9 +141,10 @@ color:rgb(245, 234, 226);
 }
 .scroll-text ul li {
   height: 1.5em;
+   list-style-type: circle;
 }
 .scroll-text ul li a{
-  color: #000;
+  color: rgb(10, 98, 255);
   text-decoration: none;
 }
 .scroll-text ul li a:hover,a:focus{
@@ -186,3 +187,10 @@ color:rgb(245, 234, 226);
 #links ul {
   margin-left: 200px;
 }
+ul li {
+  list-style-type: none;
+}
+
+.col-md-8 {
+  margin-left: 210px;
+  }
